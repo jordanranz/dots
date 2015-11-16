@@ -1,15 +1,14 @@
 'use strict'
 
-var React = require('react-native')
+var React = require('react-native');
 var {
   AppRegistry,
   StyleSheet,
   NavigatorIOS,
   Text,
   View,
-} = React
+} = React;
 
-//var DotListScreen = require('./components/DotListScreen');
 var Routes = require('./Routes');
 
 var popndots = React.createClass({
@@ -17,7 +16,7 @@ var popndots = React.createClass({
         return (
             <NavigatorIOS
                 style={styles.container}
-                initialRoute={Routes.DotList()}
+                initialRoute={Routes.DotMapBoxScreen()}
             />
         )
     } 

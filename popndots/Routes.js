@@ -10,7 +10,19 @@ class Routes {
   static DotList() {
     return {
       component: require('./components/DotListScreen'),
-      title: 'Dots',
+      title: 'Dots List',
+    }
+  }
+  static DotMap() {
+    return {
+      component: require('./components/DotMapScreen'),
+      title: 'Dots Map',
+    }
+  }
+  static DotMapBoxScreen() {
+    return {
+      component: require('./components/DotMapBoxScreen'),
+      title: 'Dots Map Box',
     }
   }
 }

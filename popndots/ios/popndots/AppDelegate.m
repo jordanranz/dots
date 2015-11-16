@@ -11,10 +11,13 @@
 
 #import "RCTRootView.h"
 
+@import GoogleMaps;
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  
   NSURL *jsCodeLocation;
 
   /**
@@ -52,6 +55,7 @@
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   return YES;
+  
 }
 
 @end
