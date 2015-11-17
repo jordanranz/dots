@@ -17,6 +17,9 @@ var popndots = React.createClass({
             <NavigatorIOS
                 style={styles.container}
                 initialRoute={Routes.DotMapBoxScreen()}
+                barTintColor={"#867FDB"}
+                tintColor={"#FFF"}
+                titleTextColor={"#FFF"}
             />
         )
     } 
@@ -25,7 +28,6 @@ var popndots = React.createClass({
 var styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
   },
 })
 

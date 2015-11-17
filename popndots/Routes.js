@@ -13,10 +13,10 @@ class Routes {
       title: 'Dots List',
     }
   }
-  static DotMap() {
+  static DotGoogleMapScreen() {
     return {
-      component: require('./components/DotMapScreen'),
-      title: 'Dots Map',
+      component: require('./components/DotGoogleMapScreen'),
+      title: 'Dots Google Map',
     }
   }
   static DotMapBoxScreen() {
